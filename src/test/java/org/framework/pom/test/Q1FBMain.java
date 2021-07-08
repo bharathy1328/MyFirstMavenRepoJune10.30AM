@@ -35,6 +35,10 @@ public class Q1FBMain extends BaseClass {
 		
 		insertType(new Q1FBPomBase().getLstTxtValues().get(1), getData(loc, "Sheet1",0,2));
 		
+	}
+	@Test
+	private void test2() {
+		System.out.println("Test2-->");
 
 	}
 	@AfterMethod
